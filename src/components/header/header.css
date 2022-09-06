@@ -1,0 +1,89 @@
+.container.header {
+  margin-left: 80px;
+  background: var(--color-white);
+  border-top: 1px solid var(--color-faint);
+  display: grid;
+  grid-template-columns: 2fr 3fr 1.1fr;
+  grid-template-rows: 1fr 1fr;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header_title {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-self: start;
+  align-self: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.header_title img {
+  width: 34px;
+  height: 34px;
+  margin-right: 5px;
+}
+
+.header_btn {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-self: end;
+  align-self: center;
+  padding: 0.5rem 0;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.header_btn img {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 10px;
+}
+
+.header_btn p {
+  padding: 0 1rem;
+  font-size: 14px;
+  line-height: 1rem;
+}
+
+.header_tab {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-self: start;
+  align-self: end;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.header_tab div {
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.header_tab div:hover {
+  cursor: pointer;
+}
+
+.header_tab-active {
+  border-bottom: 3px solid #0083e3;
+  color: #0083e3;
+}
+
+.header_search {
+  display: flex;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  justify-self: end;
+  align-self: end;
+  margin-bottom: 13px;
+  margin-right: 3rem;
+}
+
+.header_search input::placeholder {
+  color: #999999;
+}
+.header_search img {
+  margin-right: 12px;
+}

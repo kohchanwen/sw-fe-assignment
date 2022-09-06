@@ -1,0 +1,39 @@
+.container.content_teams {
+  background: var(--color-white);
+  margin: 42px 0 0 30px;
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.content_teams-type {
+    padding-left: 30px;
+    padding-top: 28px;
+    flex-basis: 50%;
+    height: 67.5px;
+}
+
+.content_teams-count {
+    padding-right: 33px;
+    padding-top: 28px; 
+    flex-basis: 50%;
+    text-align: end;
+    color: var(--color-light);
+    font-size: 14px;
+    line-height: 17px;
+    height: 67.5px;
+}
+
+.cards_container {
+    flex-basis: 100%;
+    margin: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}

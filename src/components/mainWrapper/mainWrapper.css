@@ -1,0 +1,15 @@
+.main_content {
+  margin-left: 80px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 33px;
+}
+
+@media screen and (max-width: 1250px) {
+  .main_content {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 39px;
+  }
+}

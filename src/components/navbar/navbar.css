@@ -1,0 +1,79 @@
+.container.top_nav {
+    display: flex;
+    flex-direction: row;
+    background: var(--color-white);
+    padding: 0 1rem 0 0;
+    align-items: stretch;
+    margin-left: 80px;
+    height: 80px;
+}
+
+.top_nav .app_name {
+    width: 10%;
+    color: var(--color-light);
+    border-right: 1px solid var(--color-faint);
+    display: flex;
+    justify-self: start;
+    margin-left: 35px;
+}
+
+.top_nav .app_name h4 {
+    align-self: center;
+}
+
+.top_nav .breadcrumbs {
+    width: 70%;
+    margin: auto;
+    padding-left: 1.5rem;
+}
+
+.menu_notification {
+    width: 7%;
+    text-align: center;
+    margin: auto;
+}
+
+.menu_notification img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.menu_notification img:hover {
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu_settings {
+    width: 13%;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 0.5fr;
+    
+}
+
+.menu_settings .menu_greetings {
+    font-size: 0.8rem;
+    color: var(--color-light);
+    margin: auto; 
+    padding-left: 1rem;
+}
+
+.menu_profile {
+    margin: auto;
+}
+
+.menu_profile img{
+    width: 36px;
+    height: 36px;
+    margin-top: 5px;
+}
+
+.menu_caret_down {
+    padding-right: 0.5rem;
+    
+    align-self: center;
+}
+
+.menu_caret_down img:hover{
+    width: 12px;
+    height: 7px;
+}

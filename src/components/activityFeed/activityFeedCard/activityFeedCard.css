@@ -1,0 +1,29 @@
+.activityFeed_card {
+    display: grid;
+    grid-template-columns: 45px auto;
+    margin-bottom: 10px;
+    height: 59px;
+}
+
+.activityFeed_card img{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+
+.activityFeed_card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.activityFeed_card-action {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.activityFeed_card-created {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: bottom;
+    color: var(--color-light);
+}
